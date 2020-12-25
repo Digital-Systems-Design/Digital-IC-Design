@@ -1,10 +1,9 @@
-# AnalogDesign
-Experimenting and Learning Analog Design
+# DigitalDesign
+Experimenting and Learning Digital(ASIC\FPGA\PCB) Design
 
 <h1>Reference</h1>
 <ol>
-1. Mastering Microelectronics by Prof. Hesham Omran
-https://www.youtube.com/channel/UCg6ettLUMXce9wBxi3te2EQ
+1.Digital ASIC Design with Verilog by prof. Paul Franzon
 
 </ol>
 
