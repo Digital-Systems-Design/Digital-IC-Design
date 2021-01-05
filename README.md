@@ -1,10 +1,10 @@
 # DigitalDesign
-Experimenting and Learning Digital(ASIC\FPGA\PCB) Design
+Experimenting and Learning Digital IC Design
 
 <h1>Reference</h1>
 <ol>
-1.Digital ASIC Design with Verilog by prof. Paul Franzon
-2.Digital Design with an introduction to verilog HDL by Morris Mano
-3.Handbook of Digital CMOS Technology, Circuits, and Systems by prof. Karim Abbas
+  <li>Digital ASIC Design with Verilog by prof. Paul Franzon</li>
+  <li>Digital Design with an introduction to verilog HDL by Morris Mano</li>
+  <li>Handbook of Digital CMOS Technology, Circuits, and Systems by prof. Karim Abbas</li>
 </ol>
 
