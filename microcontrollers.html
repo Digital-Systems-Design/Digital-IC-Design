@@ -1,0 +1,150 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>DigitalDesign</title>
+    <link href="https://fonts.googleapis.com/css?family=Voces" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="css/common.css"/>
+    <link rel="stylesheet" href="css/style.css"/>
+    <script src="js/scale.fix.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+    <SCRIPT SRC='https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML'></SCRIPT>
+    <SCRIPT>MathJax.Hub.Config({ tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}})</SCRIPT>
+    <style>
+        .marked{
+                background-color: yellow;
+                font-weight: bold;
+        }
+        .marked2{
+                background-color: aqua;
+                font-weight: bold;
+        }
+        p{
+            font-size: large;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        li{
+            font-size: large;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-weight: bold;
+        }
+        #link{
+            font-size: small;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            text-decoration: underline;
+        }
+        #titleheader{
+            font-size: x-large;
+        }
+        #quoteheader{
+            font-size: small;
+            padding-left: 0;
+        }
+        .boldtext{
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div id="toc"></div>    
+    <header id="headtoc">
+        <h1 class="header">Digital Systems</h1>
+        <p class="header">Experimenting and Learning Digital Systems</p>
+        <ul>
+            <li class="download"><a class="buttons" href="https://github.com/hishamelreedy/digitaldesign">SimulationFiles</a></li>
+            <li class="download"><a class="buttons" href="index.html">Digital IC Design</a></li>
+            <li class="download"><a class="buttons" href="microcontrollers.html">Microcontrollers</a></li>
+            <li class="download"><a class="buttons" href="vlsidesign.html">VLSI Design</a></li>
+        </ul>
+            <p class="header">Feel free to contact me if you don't understand anything</p>
+          <p class="header">This project is maintained by <a class="header name" href="https://github.com/hishamelreedy/">HishamElreedy</a></p>
+          <p class="header"><blockquote>اللهم لا علم لنا الأ ما علمتنا به انك انت علام الغيوب</blockquote></p>
+
+        </header>
+    <section>
+        <h1>Introduction to Microcontrollers</h1>
+            <h2>ARM Cortex M4 Core Registers</h2>
+            <ul>
+                <li>The core registers are not memory mapped and are accessed by register name</li>
+                <li>Low registers</li>
+                    <ul>
+                        <li>Registers r0-r7 are accessible by all instructions that specify a general purpose register</li>
+                    </ul>
+                <li>High Registers</li>
+                <ul>
+                    <li>Registers r8-r12 are accessible by all 32-bit instructions that specify a general purpose register</li>
+                    <li>Registers r8-r12 are not accessible by all 16-bit instructions</li>
+                </ul>
+                <li>Stack Pointer</li>
+                <ul>
+                    <li>Register r13 is used as the stack ponter(SP)</li>
+                    <li>
+                        The processor implements two stacks with a pointer for each held in independent
+                        register "Main SP" and "Process SP"
+                    </li>
+                </ul>
+                <li>Link Register</li>
+                <ul>
+                    <li>
+                        Register r14 is the subroutine LinkRegister(LR). The LR recieves the return address from PC
+                        when a Branch and Link
+                    </li>
+                    <li>
+                        The LR is also used for exception return
+                    </li>
+                    <li>
+                        At all other times, you can treat r14 as a general-purpose register
+                    </li>
+                </ul>
+                <li>PRIMASK Register</li>
+                <ul>
+                    <li>prevents activation of all exceptions with programmable priority</li>
+                </ul>
+                <li>FAULT MASK</li>
+                <ul>
+                    <li>Register prevents activation of all exceptions except for the Non-Maskable Interrupt(NMI)</li>
+                </ul>
+                <li>Both PRIMASK and FAULTMASK</li>
+                <ul>
+                    <li>This register is only accessible in privileged mode.</li>
+                    <li>The MSR and MRS instructions are used to access the PRIMASK register, and</li>
+                    <li>The CPS instruction may be used to change the value of the PRIMASK register</li>
+                </ul>
+                <li>The Control Register Controls</li>
+                <ul>
+                    <li>The stack used</li>
+                    <li>the privilege level for software execution when the processor is in Thread mode</li>
+                    <li>indicates whether the FPU state is active.</li>
+                </ul>
+                <li>This register is only accessible in privileged mode</li>
+            </ul>
+            <h2>How to switch from\to privileged mode?</h2>
+            <ul>
+                <li>
+                    In thread mode, the control register controls whether the software execution is privileged
+                    or unprivileged
+                </li>
+                <li>
+                    In Handler mode, software execution is always privileged
+                </li>
+                <li>
+                    Only privileged software can write to the control register
+                </li>
+            </ul> 
+            <figure>
+                <img src="images/arm.png"/>
+                <figcaption>Arm Core Registers</figcaption>
+            </figure> 
+            <h2>Cortex-M bus Interfaces</h2>
+            
+                      
+    </section>
+<footer>
+    <p><small>Hosted on <a href="https://www.github.com/hishamelreedy/">GitHub Pages</a> by HishamElreedy</small></p>
+</footer>
+</div>
+    <script src="js/common.js"></script>
+    <script>$('#toc').toc();</script>
+</body>
+</html>

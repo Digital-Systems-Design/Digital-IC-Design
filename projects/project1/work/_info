@@ -1,0 +1,149 @@
+m255
+K3
+13
+cModel Technology
+dD:\IntelFPGA
+Ecomplexmul
+Z0 w1610605962
+Z1 DPx4 ieee 11 numeric_std 0 22 O3PF8EB`?j9=z7KT`fn941
+Z2 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z3 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z4 dD:\Career_Organized\DigitalSystemsDesign\Digital-IC-Design-workspace\projects
+Z5 8D:\Career_Organized\DigitalSystemsDesign\Digital-IC-Design-workspace\projects\complexmultiplier.vhd
+Z6 FD:\Career_Organized\DigitalSystemsDesign\Digital-IC-Design-workspace\projects\complexmultiplier.vhd
+l0
+L30
+V_FPXco4<on=nLl@JcT;M[1
+!s100 4GLi[4G8R3@54mJ7m[I`:1
+Z7 OV;C;10.1d;51
+32
+!i10b 1
+Z8 !s108 1610606024.310000
+Z9 !s90 -reportprogress|300|-work|work|-2002|-explicit|D:\Career_Organized\DigitalSystemsDesign\Digital-IC-Design-workspace\projects\complexmultiplier.vhd|
+Z10 !s107 D:\Career_Organized\DigitalSystemsDesign\Digital-IC-Design-workspace\projects\complexmultiplier.vhd|
+Z11 o-work work -2002 -explicit -O0
+Z12 tExplicit 1
+Abehavioral
+R1
+R2
+R3
+DEx4 work 10 complexmul 0 22 _FPXco4<on=nLl@JcT;M[1
+l44
+L41
+VVj[FKRakXZm[C3c`[L;g52
+!s100 JmHTdc[f^c?fcOgS_gij?3
+R7
+32
+!i10b 1
+R8
+R9
+R10
+R11
+R12
+Ehello
+Z13 w1610602389
+R2
+R3
+R4
+Z14 8D:/Career_Organized/DigitalSystemsDesign/Digital-IC-Design-workspace/projects/complexmultiplier.vhd
+Z15 FD:/Career_Organized/DigitalSystemsDesign/Digital-IC-Design-workspace/projects/complexmultiplier.vhd
+l0
+L3
+Vz[WMD^P95J?B=9L?Q1D=X2
+R7
+32
+Z16 !s108 1610602393.255000
+Z17 !s90 -reportprogress|300|-work|work|-2002|-explicit|D:/Career_Organized/DigitalSystemsDesign/Digital-IC-Design-workspace/projects/complexmultiplier.vhd|
+Z18 !s107 D:/Career_Organized/DigitalSystemsDesign/Digital-IC-Design-workspace/projects/complexmultiplier.vhd|
+R11
+R12
+!s100 `VUAl1cjfc3`kX]TVFTXI2
+!i10b 1
+Abehavioral
+R2
+R3
+DEx4 work 5 hello 0 22 z[WMD^P95J?B=9L?Q1D=X2
+l13
+L12
+V3QeSoJmo6cahch`N[<<E^0
+R7
+32
+R16
+R17
+R18
+R11
+R12
+!s100 XR6[V0FW]9ok?0<RMB9Rf1
+!i10b 1
+Etb
+Z19 w1610606016
+R1
+R2
+R3
+R4
+Z20 8D:\Career_Organized\DigitalSystemsDesign\Digital-IC-Design-workspace\projects\complexmultiplier_tb.vhd
+Z21 FD:\Career_Organized\DigitalSystemsDesign\Digital-IC-Design-workspace\projects\complexmultiplier_tb.vhd
+l0
+L34
+V8O:N^9m437<VEOlJ90fV<3
+R7
+32
+Z22 !s108 1610606021.996000
+Z23 !s90 -reportprogress|300|-work|work|-2002|-explicit|D:\Career_Organized\DigitalSystemsDesign\Digital-IC-Design-workspace\projects\complexmultiplier_tb.vhd|
+Z24 !s107 D:\Career_Organized\DigitalSystemsDesign\Digital-IC-Design-workspace\projects\complexmultiplier_tb.vhd|
+R11
+R12
+!s100 US>JcK8E9]=6P3<kFCEFh2
+!i10b 1
+Abehavioral
+R1
+R2
+R3
+DEx4 work 2 tb 0 22 8O:N^9m437<VEOlJ90fV<3
+l50
+L38
+V>1lmW8hiV4F0:V1bBnzPF0
+R7
+32
+R22
+R23
+R24
+R11
+R12
+!s100 E4^2YlT=aKfL0V@Kh8;6`0
+!i10b 1
+Etop
+Z25 w1610604649
+R2
+R3
+R4
+Z26 8D:/Career_Organized/DigitalSystemsDesign/Digital-IC-Design-workspace/projects/top.vhd
+Z27 FD:/Career_Organized/DigitalSystemsDesign/Digital-IC-Design-workspace/projects/top.vhd
+l0
+L5
+V_`3]oMj^hNmX9h0IHP5nT1
+R7
+32
+Z28 !s108 1610605474.924000
+Z29 !s90 -reportprogress|300|-work|work|-2002|-explicit|D:/Career_Organized/DigitalSystemsDesign/Digital-IC-Design-workspace/projects/top.vhd|
+Z30 !s107 D:/Career_Organized/DigitalSystemsDesign/Digital-IC-Design-workspace/projects/top.vhd|
+R11
+R12
+!s100 Q]=7l^f0mRVZJ=hSV9:3M3
+!i10b 1
+Abehavioral
+R2
+R3
+DEx4 work 3 top 0 22 _`3]oMj^hNmX9h0IHP5nT1
+l27
+L12
+V6fFgngD7@oVmP3T@:04?h2
+R7
+32
+R28
+R29
+R30
+R11
+R12
+!s100 7TCU@Kh1ESTe@I9zPNE9i2
+!i10b 1

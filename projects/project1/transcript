@@ -1,0 +1,13 @@
+# Reading D:/IntelFPGA/modelsim_ase/tcl/vsim/pref.tcl 
+# Project file D:/Career_Organized/DigitalSystemsDesign/Digital-IC-Design-workspace/projects/firstproject.mpf was not found.
+# Unable to open project.
+# Loading project firstproject
+# 0 compiles, 3 failed with no errors. 
+# Error opening D:/Career_Organized/DigitalSystemsDesign/Digital-IC-Design-workspace/projects/complexmultiplier.vhd
+# Path name 'D:/Career_Organized/DigitalSystemsDesign/Digital-IC-Design-workspace/projects/complexmultiplier.vhd' doesn't exist.
+# Error opening D:\Career_Organized\DigitalSystemsDesign\Digital-IC-Design-workspace\projects\top.vhd
+# Path name 'D:\Career_Organized\DigitalSystemsDesign\Digital-IC-Design-workspace\projects\top.vhd' doesn't exist.
+# Error opening D:\Career_Organized\DigitalSystemsDesign\Digital-IC-Design-workspace\projects\complexmultiplier_tb.vhd
+# Path name 'D:\Career_Organized\DigitalSystemsDesign\Digital-IC-Design-workspace\projects\complexmultiplier_tb.vhd' doesn't exist.
+cls
+# 

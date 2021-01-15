@@ -44,16 +44,21 @@
             font-weight: bold;
         }
     </style>
+    <link rel="stylesheet" type="text/css" href="http://tikzjax.com/v1/fonts.css">
+    <script src="http://tikzjax.com/v1/tikzjax.js"></script>
 </head>
+
 <body>
     <div class="wrapper">
         <div id="toc"></div>    
     <header id="headtoc">
-        <h1 class="header">DigitalDesign</h1>
-        <p class="header">Experimenting and Learning Digital(ASIC\FPGA\PCB) Design</p>
+        <h1 class="header">DigitalSystems</h1>
+        <p class="header">Experimenting and Learning Digital Systems</p>
         <ul>
             <li class="download"><a class="buttons" href="https://github.com/hishamelreedy/digitaldesign">SimulationFiles</a></li>
-            <li><a class="buttons github" href="https://github.com/hishamelreedy/digitaldesign">View On GitHub</a></li>
+            <li class="download"><a class="buttons" href="index.html">Digital IC Design</a></li>
+            <li class="download"><a class="buttons" href="microcontrollers.html">Microcontrollers</a></li>
+            <li class="download"><a class="buttons" href="vlsidesign.html">VLSI Design</a></li>
         </ul>
             <p class="header">Feel free to contact me if you don't understand anything</p>
           <p class="header">This project is maintained by <a class="header name" href="https://github.com/hishamelreedy/">HishamElreedy</a></p>
@@ -127,8 +132,8 @@
         <p>
             this stage we transform logic circuits to real circuits using transistors
         </p>
-            <h2>Memories</h2>
-                <h3>Static Random Access Memory</h3>
+            <h1>Memories</h1>
+                <h2>Static Random Access Memory</h2>
                         <p>
                             
                         </p>
@@ -148,7 +153,34 @@
                             <center><img src="images/transmissiongate.png"/></center>
                             <caption><em>transmission gate structure</em></caption><br/>
                         </figure>
-    </section>
+                <h2>Dynamic Random Access Memory</h2>
+                    <p>
+                        Dram is the bulk memory you will find in any digital system like your pc also it
+                        is the most fast and high dense read/write memory, it can also be synchronous which
+                        we call SDRAM and can be asynchronous. we have 3 types of DRAM in terms of structure
+                    </p>
+                    <ol>
+                        <li>4-Transistor Structure</li>
+                        <li>3-Transistor Structure</li>
+                        <li>1-Transistor Structure(most practically used but with many problems)</li>
+                    </ol>
+                    <h3>4-Transistor</h3>
+                    <p>
+                        when we write we drive first bit lines assume \(BL'=V_{DD}\) and \(BL=0\) then 
+                        drive wordline assume we drive it with VDD then 0V will move to point Q and VDD
+                        will move to point Q' then disable word line by 0V<br/>
+                        we will notice that Q' will make M1 turn on and then Q=0V and Q will turn M3 off which
+                        Makes Q'=VDD but notice that M3(Q) and M6(WL) are off but so VDD is at high impedance node
+                        where we keep its value at this node on a capacitor formed at this node
+                    </p>
+                    <figure>
+                        <img src="images/dram4t.png"/>
+                        <figcaption>4-Transistor DRAM</figcaption>
+                    </figure>
+                        $$\begin{tikzpicture}
+                          \draw (0,0) circle (1in);
+                        \end{tikzpicture}$$
+            </section>
 <footer>
     <p><small>Hosted on <a href="https://www.github.com/hishamelreedy/">GitHub Pages</a> by HishamElreedy</small></p>
 </footer>

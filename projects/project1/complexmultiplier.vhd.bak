@@ -1,0 +1,15 @@
+Library IEEE;
+use IEEE.std_logic;
+entity hello is
+port(
+      a: in std_logic;
+      b: in std_logic;
+      c: out std_logic
+);  
+  
+end hello;
+
+architecture behavioral of hello is
+Begin
+  c <= a and b;
+end behavioral;

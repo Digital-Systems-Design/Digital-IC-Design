@@ -1,0 +1,117 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>DigitalDesign</title>
+    <link href="https://fonts.googleapis.com/css?family=Voces" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="css/common.css"/>
+    <link rel="stylesheet" href="css/style.css"/>
+    <script src="js/scale.fix.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+    <SCRIPT SRC='https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML'></SCRIPT>
+    <SCRIPT>MathJax.Hub.Config({ tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}})</SCRIPT>
+    <style>
+        .marked{
+                background-color: yellow;
+                font-weight: bold;
+        }
+        .marked2{
+                background-color: aqua;
+                font-weight: bold;
+        }
+        p{
+            font-size: large;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        li{
+            font-size: large;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-weight: bold;
+        }
+        #link{
+            font-size: small;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            text-decoration: underline;
+        }
+        #titleheader{
+            font-size: x-large;
+        }
+        #quoteheader{
+            font-size: small;
+            padding-left: 0;
+        }
+        .boldtext{
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div id="toc"></div>    
+    <header id="headtoc">
+        <h1 class="header">Digital Systems</h1>
+        <p class="header">Experimenting and Learning Digital Systems</p>
+        <ul>
+            <li class="download"><a class="buttons" href="https://github.com/hishamelreedy/digitaldesign">SimulationFiles</a></li>
+            <li class="download"><a class="buttons" href="index.html">Digital IC Design</a></li>
+            <li class="download"><a class="buttons" href="microcontrollers.html">Microcontrollers</a></li>
+            <li class="download"><a class="buttons" href="vlsidesign.html">VLSI Design</a></li>
+        </ul>
+            <p class="header">Feel free to contact me if you don't understand anything</p>
+          <p class="header">This project is maintained by <a class="header name" href="https://github.com/hishamelreedy/">HishamElreedy</a></p>
+          <p class="header"><blockquote>اللهم لا علم لنا الأ ما علمتنا به انك انت علام الغيوب</blockquote></p>
+
+        </header>
+    <section>
+        <h1>VLSI Design</h1> 
+        <p>
+            VLSI: Very Large Scale Integrated Circuits
+            we will start with transistor level design assuming that you have finished functional and 
+            behavioural simulation for your design  
+        </p>
+        <h2>Ch1. Introduction to VLSI Design</h2>
+        <ol>
+            <li>History of IC Development</li>
+            <li>VLSI Design? when?</li>
+            <li>Design Levels and Design Domains</li>
+            <li>Design Styles: Standard IC, ASIC, and Programmable Devices</li>
+            <li>Design Methodology</li>
+            <li>Design Tools</li>
+            <li>Testing Problem</li>
+            <li>Performance Parameters</li>
+        </ol>
+        <h3>History of IC Development</h3>
+        <p>
+            hair thickness is of 100um and first channel length was 50um using bjt transistors now reached 7nm and wafer size
+        increased from 1.5 inch to 12-inch
+            First Processor Intel manufactured was intel 4004 at 1970 on vertical axis no. of transistors per ic
+        </p>
+        <figure>
+            <img src="images/mooreslaw.png"/>
+            <figcaption>Moore's Law</figcaption>
+        </figure>
+        <figure>
+            <img src="images/history.png"/>
+            <figcaption>History of IC Development</figcaption>
+        </figure>
+        <h3>Design Levels and Design Domains</h3>
+        <p>
+            Design levels are represented by a pyramid on the top of it is design specifications which is represented by instruction
+            set Architecture incase we are designing a microprocessor and at the bottom of it is the layout of the design
+        </p>
+        <h2>Ch3. Design For Manufacturing</h2>
+        how to take into your account the effect of manufacturing defects into your considerations while designing
+        <h2>Ch4. Layout Verification</h2>
+        Extracting circuit from layout with its parasitics and start simulation
+        <h2>Ch5. Estimate Performance of your circuit before layout</h2>
+        <h2>Project</h2>
+
+    </section>
+<footer>
+    <p><small>Hosted on <a href="https://www.github.com/hishamelreedy/">GitHub Pages</a> by HishamElreedy</small></p>
+</footer>
+</div>
+    <script src="js/common.js"></script>
+    <script>$('#toc').toc();</script>
+</body>
+</html>

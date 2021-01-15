@@ -1,0 +1,27 @@
+D:/Career_Organized/DigitalSystemsDesign/Digital-IC-Design-workspace/projects/top.vhd {1 {vcom -work work -2002 -explicit D:/Career_Organized/DigitalSystemsDesign/Digital-IC-Design-workspace/projects/top.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity top
+-- Compiling architecture behavioral of top
+
+} {} {}} D:/Career_Organized/DigitalSystemsDesign/Digital-IC-Design-workspace/projects/complexmultiplier.vhd {1 {vcom -work work -2002 -explicit {D:\Career_Organized\DigitalSystemsDesign\Digital-IC-Design-workspace\projects\complexmultiplier.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity ComplexMUL
+-- Compiling architecture Behavioral of ComplexMUL
+
+} {} {}} D:/Career_Organized/DigitalSystemsDesign/Digital-IC-Design-workspace/projects/complexmultiplier_tb.vhd {1 {vcom -work work -2002 -explicit {D:\Career_Organized\DigitalSystemsDesign\Digital-IC-Design-workspace\projects\complexmultiplier_tb.vhd}
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity TB
+-- Compiling architecture Behavioral of TB
+
+} {} {}}
