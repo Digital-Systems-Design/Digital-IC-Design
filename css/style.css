@@ -135,3 +135,35 @@ sub, sup {
   .notbold{
     font-weight:normal
 }​
+.marked{
+  background-color: yellow;
+  font-weight: bold;
+}
+.marked2{
+  background-color: aqua;
+  font-weight: bold;
+}
+p{
+font-size: large;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+li{
+font-size: large;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-weight: bold;
+}
+#link{
+font-size: small;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+text-decoration: underline;
+}
+#titleheader{
+font-size: x-large;
+}
+#quoteheader{
+font-size: small;
+padding-left: 0;
+}
+.boldtext{
+font-weight: bold;
+}
